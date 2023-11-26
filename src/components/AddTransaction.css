@@ -1,0 +1,25 @@
+.Inp-box {
+    border: 2px solid black;
+    width: 95%;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    height: 3em;
+    font-size: 16px;
+    box-shadow: 0.3px 0.3px 8px 0 rgba(25, 25, 25, 0.3);
+    margin-top: 10px;
+    padding-inline-start: 4%;
+}
+
+.Add-Trans-Btn {
+    height: 3em;
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 2px;
+    border: none;
+    outline: none;
+    background-color: blueviolet;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}

@@ -1,0 +1,38 @@
+.Box {
+    width: 100%;
+    box-shadow: 0.3px 0.3px 8px 0 rgba(25, 25, 25, 0.3);
+    display: flex;
+}
+
+.Income {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.Expense {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.Income h3 span {
+    color: rgb(109, 245, 109);
+}
+
+.Expense h3 span {
+    color: rgb(241, 104, 104);
+}
+
+.ver-row {
+    color: rgba(30, 30, 30, 0.6);
+}
+
+.Income h3,
+.Expense h3 {
+    margin-top: 10px;
+}

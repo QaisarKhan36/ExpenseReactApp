@@ -1,0 +1,63 @@
+.TransactionBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 0px;
+}
+
+.HisBox {
+    width: 89%;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0.1px 0.1px 5px 0 rgba(25, 25, 25, 0.3);
+    background-color: white;
+    padding: 0 5%;
+    height: 3em;
+    border-radius: 5px;
+    margin: 3px 0;
+    position: relative;
+}
+
+.green{
+    border-right: 3px solid rgb(30, 241, 30);
+}
+
+.red{
+    border-right: 3px solid rgb(247, 87, 87);
+}
+
+.top-btn{
+    height: 100%;
+    width: 20px;
+    background: transparent;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    position: absolute;
+    left: -10px;
+    top: 0px;
+    cursor: pointer;
+}
+
+.delete_btn{
+    height: 30px;
+    width: 30px;
+    background-color: rgb(245, 103, 103);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    position: absolute;
+    left: -30px;
+    top: 8px;
+    cursor: pointer;
+    display: none;
+}
+
+.HisBox:hover .delete_btn{
+    display: inline-block;
+}
+.top-btn:hover .delete_btn{
+    display: inline-block;
+}
